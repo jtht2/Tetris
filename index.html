@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+  <div id="canvas-container">
+	  <canvas id="myCanvas" width="713.5" height="550">
+	    Sorry, but your browser does not support the HTML5 canvas tag.
+	  </canvas>
+  </div>
+  <p><a href='highscores.php'>View Highscores</a></p>
+
+  <form id="form" method="post" autocomplete="off">
+      <input id="name" class="hide" maxlength="3" type="text">
+  </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+    <script src="js/keys.js"></script>
+    <script src="js/globals.js"></script>
+    <script src="js/handleForm.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/levelManager.js"></script>
+    <script src="js/startingScreen.js"></script>
+    <script src="js/gameOverScreen.js"></script>
+    <script src="js/pauseScreen.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/Brick.js"></script>
+    <script src="js/Tetris.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+	background-color: lightblue;
+}
+
+#canvas-container {
+	width: 100%;
+	text-align: center;
+}
+
+canvas {
+	display: inline;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	font-size: 24px;
+	text-decoration: none;
+	color: darkblue;
+	font-family: 'Raleway';
+}
+
+a:hover {
+	color: white;
+	cursor: default;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	position: absolute;
+}
+
+#name {
+	outline: none;
+	border: 0px;
+	
+	font-family: "Stalinist One";
+	font-size: 40px;
+	text-align: center;
+
+	background-color: pink;
+	width: 300px;
+}
